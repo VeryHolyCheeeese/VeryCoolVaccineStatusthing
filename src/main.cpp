@@ -13,4 +13,5 @@ if(vaccinationshot >= 2) vaccinationstatus = true;   //if the vaccineshot count 
 if(vaccinationstatus == true) cout << "You are vaccinated!\n"; //if the vaccinestatus is TRUE then it will say "you are vaccinated"
     else cout << "You are unvaccinated!\n"; //if the vaccinestatus is FALSE then it will say "You are unvaccinated
 if(vaccinationshot < 0) cout << "Impossible!\n"; //If the vaccintation shot is smaller than 0 then it will say "Impossible!" as you cannot physically have negative shots.
+system("pause");
 }
