@@ -1,8 +1,6 @@
 #include <iostream>
 using namespace std;
 int main() {
-goto start;
-start:
 cout << "How many Vaccine shots have you had?\n"; //The terminal will say this
 int vaccinationshot; 
 string RESTART;
