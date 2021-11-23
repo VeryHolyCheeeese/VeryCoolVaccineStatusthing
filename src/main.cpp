@@ -3,8 +3,6 @@ using namespace std;
 int main() {
 cout << "How many Vaccine shots have you had?\n"; //The terminal will say this
 int vaccinationshot; 
-string RESTART;
-string EXIT;
 cin >> vaccinationshot; //type in vaccination shot
 bool vaccinationstatus = false; //sets the vaccinestatus to false
 if(vaccinationshot >= 2) vaccinationstatus = true;   //if the vaccineshot count is equal or greater than 2 then it will turn vaccinestatus to true
